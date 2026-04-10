@@ -1,0 +1,45 @@
+// UNICAMP Vestibular Configuration
+// Generated from top_200_exam_universe_seed.csv
+
+export const EXAM_CONFIG = {
+  examId: "EXAM089",
+  slug: "unicamp-vestibular",
+  name: "UNICAMP Vestibular",
+  fullName: "UNICAMP",
+  alias: "UNICAMP",
+  family: "Vestibular Brazil",
+  category: "Admissions",
+  subcategory: "University admissions",
+  country: "Brazil",
+  region: "Latin America",
+  languages: ["Portuguese"],
+  estimatedAnnualTakers: "varies",
+  testingWindow: "Oct-Dec",
+  schedulePattern: "Annual",
+  ageGroup: "16-25",
+  targetUser: "University applicant",
+  delivery: "Paper-based",
+  questionTypes: ["Objective + essay"],
+  adaptivity: "Tiered",
+  sections: "Multiple phases",
+  scoringMode: "Score-based",
+  essayOrSpeaking: "Essay",
+  ipRisk: "Low",
+  contentReuse: "school_subjects_plus_admissions",
+  uiEngine: "paper_objective_plus_essay",
+  monetizationPotential: "Medium",
+  tier: "Tier 4",
+  launchWave: "Wave 6",
+  themeColor: "#1E40AF",
+  themeColorDark: "#1E3A8A",
+  localizationComplexity: "Low",
+  offlineNeeded: false,
+  mobileFirst: true,
+  locale: "pt-BR",
+  isRTL: false,
+  freemiumGate: {
+    dailyQuestions: 10,
+  },
+} as const;
+
+export type ExamConfig = typeof EXAM_CONFIG;
